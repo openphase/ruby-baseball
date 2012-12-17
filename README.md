@@ -1,4 +1,4 @@
 ruby-baseball
 =============
 
-A series of programs for the rookie league  Ruby, all with an obvious baseball theme
+A series of programs for the rookie league Ruby players all to theme of the 'Great American' pastime.
