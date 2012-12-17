@@ -1,4 +1,4 @@
-# spec for count class
+# spec for count class for a start
 
 require "minitest/autorun"
 require_relative "../lib/count.rb"
