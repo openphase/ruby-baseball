@@ -1,20 +1,21 @@
 ## Count class
 
 class Count
-  attr_reader :value, :resetValue, :countMax
+  attr_reader :value, :resetValue, :countMax, :countValue
   
-  def initialize(reset=0, max=32656) 
+  def initialize(reset=0, countv=1, max=32656) 
     @resetValue = reset
+    @countValue = countv
     @countMax = max
     @value = @resetValue
   end
   
   def inc
-    @value += 1 if @value <= countMax
+    @value += @countValue if @value <= countMax
   end
   
   def dec
-    @value -= 1 if @value > 0
+    @value -= @countValue if @value > 0
   end
   
   def resetCount
